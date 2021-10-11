@@ -1,0 +1,33 @@
+def Mad1():
+    animal=input("Name of an animal >")
+    Parent=input("Name of a parent >")
+    month=input("Name of a month >")
+    path=input("Name of a path >")
+    movement=input("Name of a movement >")
+    number=input("Name of a number >")
+
+    print(f'''
+There was once a {animal}.
+He was always getting told off. 
+One day while his {Parent} was sitting in the garden in {month}, he sneaked out.
+He did not mean to go far but he saw a glittery thing on the {path} and {movement} over to it.
+He found out it was gold and became rich because he had {number} pieces of gold.''')
+
+def Mad2():
+    boy=input("Name >")
+    cloth_article=input("Name of a cloth >")
+    creature=input("Name of a monster! >")
+    adj =input("Adjective?! >")
+    village=input("Name of a village >")
+    exclamation=input("Things when you say when you get frightenned?? >")
+    fav_thing=input("Your Favourite things "+"("+"Just between you and me ;)"+") >")
+    
+    print(f'''
+On one dark, stormy night, {boy} came along. He was wearing nothing but a {cloth_article}.
+He went into the woods and there he found a {creature}! It was {adj }.
+In fright he ran into a nearby village called {village} screaming, "{exclamation}!"
+The footsteps of the {creature} behind him became louder and louder.
+The villagers screamed, "It's a {adj} {creature}!" 
+Taking no prisoners the {creature} demolished the entire village leaving only the trace of someone's {fav_thing}.  
+Then it went back into the woods and waited for its next victim to emerge.
+    ''')
