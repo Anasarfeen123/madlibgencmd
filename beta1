@@ -1,3 +1,6 @@
+import random
+x=random.randint(0,2)
+
 def Mad1():
     animal=input("Name of an animal >")
     Parent=input("Name of a parent >")
@@ -31,3 +34,6 @@ The villagers screamed, "It's a {adj} {creature}!"
 Taking no prisoners the {creature} demolished the entire village leaving only the trace of someone's {fav_thing}.  
 Then it went back into the woods and waited for its next victim to emerge.
     ''')
+if x == 1:{Mad1()}
+else:{Mad2()}
+
